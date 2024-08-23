@@ -183,7 +183,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
         job_queue = context.job_queue
         job = job_queue.run_repeating(
             lambda job_context: check_warehouses(job_context, user_id),
-            interval=5,
+            interval=60,
             first=0
         )
 
