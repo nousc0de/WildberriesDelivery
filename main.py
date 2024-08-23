@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFi
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 
 # Заменить на токен телеграмм-бота
-TELEGRAM_BOT_TOKEN = '7432735809:AAFhOHGmoBE8rdJewqjfAHICII3dEMML9FU'
+TELEGRAM_BOT_TOKEN = '6720902803:AAH8Rj6V5PMcpB24n1OD_UiZhhVNzcyKR0M'
 # URL для API Wildberries
 WILDBERRIES_BASE_URL = 'https://supplies-api.wildberries.ru/api/v1'
 
